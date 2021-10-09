@@ -16,7 +16,7 @@
 
 .logo{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex: 0.2;
   margin: 10px;
   background-color: aqua;
@@ -28,6 +28,8 @@
   margin: 10px;
   font-weight: 500;
   font-size: 15px;
+  color: #212121;
+  text-decoration: none;
 }
 
 .menu{
@@ -51,6 +53,8 @@
   margin: 10px;
   font-weight: 500;
   font-size: 15px;
+  color: #212121;
+  text-decoration: none;
 }
 
 .search{
@@ -78,4 +82,24 @@
   flex: 0.5;
   text-align: center;
   align-items: center;
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+.cam{
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.mofish{
+  display: flex;
+  flex-direction: column;
+  flex: 0.6;
+  text-align: center;
+  align-items: flex-start;
 }
