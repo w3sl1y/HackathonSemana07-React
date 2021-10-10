@@ -334,3 +334,153 @@ button.heart:hover{
   border-color: #212121;
   transition: 500ms;
 }
+
+.titles{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: #fff;
+  width: 100%;
+}
+
+.cast{
+  display: flex;
+  flex: 0.3333;
+  flex-direction: column;
+  background-color: rgb(109, 255, 11);
+  align-items: center;
+  margin: 10px;
+}
+
+.cast a{
+  margin: 20px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.news{
+  display: flex;
+  flex: 0.3333;
+  flex-direction: column;
+  background-color: rgb(175, 70, 70);
+  align-items: center;
+  margin: 10px;
+}
+
+.news a{
+  margin: 20px;
+  text-decoration: none;
+  color: #212121;
+}
+
+.all-news{
+  display: flex;
+  flex: 0.3333;
+  flex-direction: column;
+  background-color: rgb(229, 255, 0);
+  align-items: center;
+  margin: 10px;
+}
+
+.all-news a{
+  margin: 20px;
+  text-decoration: none;
+  color: rgb(0, 118, 151);
+}
+
+.all-news a:hover{
+  margin: 20px;
+  text-decoration: none;
+  color: #212121;
+  transition: 500ms;
+}
+
+.cards{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  background-color: #fff;
+  width: 100%;
+}
+
+.left{
+  display: flex;
+  flex: 0.3333;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.13);
+}
+
+.left a{
+  margin: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.left img{
+  margin: 10px;
+}
+
+.dory{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.hank{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+
+}
+
+.merlin{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.destiny{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.all-cast{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+
+.all-cast a{
+  text-decoration: none;
+  color: rgb(0, 118, 151);
+}
+
+.all-cast a:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: 500ms;
+}
+
+.right{
+  display: flex;
+  flex: 0.6667;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px;
+  margin-top: 30px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.13);
+}
+
+.right a{
+  margin: 20px;
+}
