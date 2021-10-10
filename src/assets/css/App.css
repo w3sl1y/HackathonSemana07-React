@@ -347,7 +347,6 @@ button.heart:hover{
   display: flex;
   flex: 0.3333;
   flex-direction: column;
-  background-color: rgb(109, 255, 11);
   align-items: center;
   margin: 10px;
 }
@@ -362,7 +361,6 @@ button.heart:hover{
   display: flex;
   flex: 0.3333;
   flex-direction: column;
-  background-color: rgb(175, 70, 70);
   align-items: center;
   margin: 10px;
 }
@@ -377,7 +375,6 @@ button.heart:hover{
   display: flex;
   flex: 0.3333;
   flex-direction: column;
-  background-color: rgb(229, 255, 0);
   align-items: center;
   margin: 10px;
 }
@@ -411,6 +408,7 @@ button.heart:hover{
   margin: 30px;
   border-style: groove;
   border-color: rgba(0, 0, 0, 0.13);
+  background-color: rgba(0, 0, 0, 0.027);
 }
 
 .left a{
@@ -452,6 +450,10 @@ button.heart:hover{
   margin: 10px;
 }
 
+.destiny img{
+  transform: scaleX(-1);
+}
+
 .all-cast{
   display: flex;
   flex-direction: row;
@@ -477,10 +479,69 @@ button.heart:hover{
   align-items: center;
   margin: 60px;
   margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.027);
+}
+
+.italic{
+  margin: 20px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.right p{
+  margin: 20px;
+  font-weight: 400;
+}
+
+.nc{
+  color: rgb(0, 118, 151);
+  text-decoration: none;
+  margin: 20px;
+}
+
+.nc:hover{
+  color: rgb(0, 64, 82);
+  transition: 1000ms;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.new1{
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+  align-items: center;
+  margin: 10px;
   border-style: groove;
   border-color: rgba(0, 0, 0, 0.13);
 }
 
-.right a{
+.new1 img{
   margin: 20px;
+}
+
+.new2{
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+  align-items: center;
+  margin: 10px;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.13);
+}
+
+.new2 img{
+  margin: 20px;
+}
+
+.img{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
